@@ -1,5 +1,3 @@
-# Udacity-Disaster-Response-Pipeline
-
 # Udacity Project2
 # Disaster Response Pipeline
 
