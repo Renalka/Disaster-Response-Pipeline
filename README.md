@@ -28,6 +28,14 @@ NLTK - for Natural Language Processing
 Pickle - for loading and saving models
 Flask, Plotly- for Web App and Data Visualizations
 
+## Files and their purpose:
+
+data/process_data.py: An ETL (Extract Train Load) pipeline used for merging datasets, data cleaning, and storing final data in a SQLite database
+
+models/train_classifier.py: A machine learning pipeline used for loading data, training a model, and saving the trained model as a pickle file
+
+run.py: Used for launching the web app that can classify disaster messages
+
 ## Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
 
