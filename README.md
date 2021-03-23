@@ -23,27 +23,17 @@ disaster_messages.csv: contains id, message, original, genre columns
 ## Installations:
 This project requires Python 3.x and the following Python libraries installed:
 
-sys
-
-pandas
-
-numpy
-
-re
-
-sklearn
-
-sqlalchemy
-
-nltk
-
-pickle
-
-flask
-
-plotly
-
-json
+1. sys
+2. pandas
+3. numpy
+4. re
+5. sklearn
+6. sqlalchemy
+7. nltk
+8. pickle
+9. flask
+10. plotly
+11. json
   
 
 ## Files and their purpose:
