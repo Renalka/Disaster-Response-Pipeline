@@ -22,11 +22,18 @@ disaster_messages.csv: contains id, message, original, genre columns
 ## Installations:
 This project requires Python 3.x and the following Python libraries installed:
 
-Pandas, NumPy, Sciki-Learn, SciPy  - for Data cleaning and Machine Learning 
-SQLalchemy - for SQLite database handling
-NLTK - for Natural Language Processing
-Pickle - for loading and saving models
-Flask, Plotly- for Web App and Data Visualizations
+sys
+pandas
+numpy
+re
+sklearn
+sqlalchemy
+nltk
+pickle
+flask
+plotly
+json
+  
 
 ## Files and their purpose:
 
@@ -44,12 +51,15 @@ run.py: Used for launching the web app that can classify disaster messages
     - To run ML pipeline that trains classifier and saves
         `python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl`
 
-2. Run the following command in the app's directory to run your web app.
+2. To go to app's directory, type `cd app`
+   Run the following command in the app's directory to run your web app.
     `python run.py`
 
 3. Go to http://0.0.0.0:3001/
+OR
+4. Open another terminal and type `env|grep WORK` to get your space id.
 
-## Results:
-The results are as follows :
+5. Now open your browser window, type https://viewa7a4999b-3001.udacity-student-workspaces.com and replace the viewa7a4999b part with your spaceid.
 
+6. Press enter to open the web app in your browser.
 
