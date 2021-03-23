@@ -16,6 +16,7 @@ Running a web app which can be used to visualise the results in real time
 The following datasets are used:
 
 disaster_categories.csv: contains id and categories columns
+
 disaster_messages.csv: contains id, message, original, genre columns
 
 
@@ -23,15 +24,25 @@ disaster_messages.csv: contains id, message, original, genre columns
 This project requires Python 3.x and the following Python libraries installed:
 
 sys
+
 pandas
+
 numpy
+
 re
+
 sklearn
+
 sqlalchemy
+
 nltk
+
 pickle
+
 flask
+
 plotly
+
 json
   
 
