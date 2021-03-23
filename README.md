@@ -38,11 +38,14 @@ This project requires Python 3.x and the following Python libraries installed:
 
 ## Files and their purpose:
 
-data/process_data.py: An ETL (Extract Train Load) pipeline used for merging datasets, data cleaning, and storing final data in a SQLite database
+### data/process_data.py:
+An ETL (Extract Train Load) pipeline used for merging datasets, data cleaning, and storing final data in a SQLite database
 
-models/train_classifier.py: A machine learning pipeline used for loading data, training a model, and saving the trained model as a pickle file
+### models/train_classifier.py:
+A machine learning pipeline used for loading data, training a model, and saving the trained model as a pickle file
 
-run.py: Used for launching the web app that can classify disaster messages
+### run.py:
+Used for launching the web app that can classify disaster messages
 
 ## Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
