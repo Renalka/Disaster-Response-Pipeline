@@ -1,4 +1,3 @@
-# Udacity Project2
 # Disaster Response Pipeline
 
 This project is part of Data Science Nanodegree Program by Udacity in collaboration with Figure Eight. The dataset provided by Figure Eight contains pre-labelled tweet and messages from real-life disasters. The project is aimed at using ML and building a Natural Language Processing (NLP) pipeline to categorize these messages on a real time basis.
