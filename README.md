@@ -44,7 +44,8 @@ An ETL (Extract Train Load) pipeline used for merging datasets, data cleaning, a
 A machine learning pipeline used for loading data, training a model, and saving the trained model as a pickle file
 
 #### run.py:
-Used for launching the web app that can classify disaster messages
+templates folder: This folder contains all of the html files necessary to run and render the web app.
+run.py: Used for launching the web app that can classify disaster messages
 
 ## Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
